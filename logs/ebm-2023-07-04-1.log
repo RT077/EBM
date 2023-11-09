@@ -1,0 +1,61 @@
+2023-07-04 11:04:17.953  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Starting EbmApplication using Java 17.0.1 on LAPTOP-QSG579HJ with PID 21212 (C:\ebm\gitWorkspace\ebm\ebm\target\classes started by rupes in C:\ebm\gitWorkspace\ebm\ebm)
+2023-07-04 11:04:17.969 DEBUG LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Running with Spring Boot v2.7.4, Spring v5.3.23
+2023-07-04 11:04:17.971  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : No active profile set, falling back to 1 default profile: "default"
+2023-07-04 11:04:18.074  INFO LAPTOP-QSG579HJ --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-04 11:04:18.075  INFO LAPTOP-QSG579HJ --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-04 11:04:19.266  INFO LAPTOP-QSG579HJ --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 11:04:19.450  INFO LAPTOP-QSG579HJ --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 3 JPA repository interfaces.
+2023-07-04 11:04:21.060  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-07-04 11:04:21.095  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 11:04:21.096  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-07-04 11:04:21.097  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-04 11:04:21.555  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-07-04 11:04:21.581  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-07-04 11:04:21.582  INFO LAPTOP-QSG579HJ --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3506 ms
+2023-07-04 11:04:21.931  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 11:04:22.079  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-04 11:04:22.495  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-04 11:04:22.696  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-04 11:04:23.326  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-04 11:04:23.460  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-07-04 11:04:25.138  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 11:04:25.167  INFO LAPTOP-QSG579HJ --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 11:04:26.021  WARN LAPTOP-QSG579HJ --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 11:04:27.528  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-04 11:04:27.577  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 11:04:27.658  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 11:04:27.682  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Started EbmApplication in 10.479 seconds (JVM running for 12.881)
+2023-07-04 11:04:27.926  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Welcome to EBM Application
+2023-07-04 11:05:28.230  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 11:05:28.231  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-07-04 11:05:28.234  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2023-07-04 11:05:29.685  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.a.c.u.SessionIdGeneratorBase           : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+2023-07-04 11:05:31.360  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-9] o.s.w.s.PageNotFound                     : No mapping for GET /favicon.ico
+2023-07-04 11:05:36.936  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] c.c.e.c.UserController                   : login controller called.
+2023-07-04 11:05:36.939  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] c.c.e.c.UserController                   : new session:D243113A45E03395B29805D3337DA9A8
+2023-07-04 11:05:37.032  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] c.c.e.s.UserService                      : []
+2023-07-04 11:05:37.040  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-2] c.c.e.c.UserController                   : user not found
+2023-07-04 11:06:03.141  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.c.UserController                   : login controller called.
+2023-07-04 11:06:03.143  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.c.UserController                   : new session:1311C46144D56B4C8B57B9A58231AF27
+2023-07-04 11:06:03.151  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.s.UserService                      : [com.cs.ebm.pojo.User@6feae32e]
+2023-07-04 11:06:03.151  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.c.UserController                   : user found
+2023-07-04 11:06:04.031  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.s.w.s.PageNotFound                     : No mapping for GET /plugins/fontawesome-free/css/all.min.css
+2023-07-04 11:06:11.363  WARN LAPTOP-QSG579HJ --- [io-8080-exec-10] o.s.w.s.PageNotFound                     : No mapping for GET /enqTable
+2023-07-04 11:06:20.445  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-5] c.c.e.c.UserController                   : login controller called.
+2023-07-04 11:06:20.445  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-5] c.c.e.c.UserController                   : new session:61A009C7364854B3AD2FBE01814B56EA
+2023-07-04 11:06:20.451  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-5] c.c.e.s.UserService                      : [com.cs.ebm.pojo.User@6a1c2ccd]
+2023-07-04 11:06:20.453  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-5] c.c.e.c.UserController                   : user found
+2023-07-04 11:06:20.487  WARN LAPTOP-QSG579HJ --- [io-8080-exec-10] o.s.w.s.PageNotFound                     : No mapping for GET /plugins/fontawesome-free/css/all.min.css
+2023-07-04 11:06:25.786  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-3] o.s.w.s.PageNotFound                     : No mapping for GET /enqTable
+2023-07-04 11:06:31.182  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.c.UserController                   : login controller called.
+2023-07-04 11:06:31.188  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.c.UserController                   : new session:44CC0D86E05A7C0A5E3AA2806FE45D47
+2023-07-04 11:06:31.197  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.s.UserService                      : [com.cs.ebm.pojo.User@3ae1248]
+2023-07-04 11:06:31.198  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-9] c.c.e.c.UserController                   : user found
+2023-07-04 11:06:31.358  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.s.w.s.PageNotFound                     : No mapping for GET /plugins/fontawesome-free/css/all.min.css
+2023-07-04 11:06:46.092  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-2] o.s.w.s.PageNotFound                     : No mapping for GET /enqTable
+2023-07-04 11:08:50.389  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-7] c.c.e.c.UserController                   : login controller called.
+2023-07-04 11:08:50.389  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-7] c.c.e.c.UserController                   : new session:C34096B647721C8F62B322AFFD8A5777
+2023-07-04 11:08:50.397  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-7] c.c.e.s.UserService                      : [com.cs.ebm.pojo.User@734cfa42]
+2023-07-04 11:08:50.403  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-7] c.c.e.c.UserController                   : user found
+2023-07-04 11:08:50.477  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-6] o.s.w.s.PageNotFound                     : No mapping for GET /plugins/fontawesome-free/css/all.min.css
+2023-07-04 19:16:30.442  WARN LAPTOP-QSG579HJ --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h7m42s701ms697µs100ns).

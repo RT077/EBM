@@ -1,0 +1,32 @@
+2023-07-02 17:36:54.853  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Starting EbmApplication using Java 17.0.1 on LAPTOP-QSG579HJ with PID 16524 (C:\ebm\gitWorkspace\ebm\ebm\target\classes started by rupes in C:\ebm\gitWorkspace\ebm\ebm)
+2023-07-02 17:36:54.880 DEBUG LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Running with Spring Boot v2.7.4, Spring v5.3.23
+2023-07-02 17:36:54.886  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : No active profile set, falling back to 1 default profile: "default"
+2023-07-02 17:36:55.006  INFO LAPTOP-QSG579HJ --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-02 17:36:55.007  INFO LAPTOP-QSG579HJ --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-02 17:36:56.325  INFO LAPTOP-QSG579HJ --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-02 17:36:56.429  INFO LAPTOP-QSG579HJ --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2023-07-02 17:36:57.779  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2023-07-02 17:36:57.818  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-02 17:36:57.819  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-07-02 17:36:57.820  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-07-02 17:36:58.229  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-07-02 17:36:58.251  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-07-02 17:36:58.251  INFO LAPTOP-QSG579HJ --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3243 ms
+2023-07-02 17:36:58.559  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-02 17:36:58.759  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.11.Final
+2023-07-02 17:36:59.079  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-02 17:36:59.226  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-02 17:36:59.431  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-02 17:36:59.459  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-07-02 17:37:00.629  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-02 17:37:00.639  INFO LAPTOP-QSG579HJ --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-02 17:37:01.352  WARN LAPTOP-QSG579HJ --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-02 17:37:02.413  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-07-02 17:37:02.433  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-07-02 17:37:02.507  INFO LAPTOP-QSG579HJ --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-02 17:37:02.529  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Started EbmApplication in 8.273 seconds (JVM running for 9.639)
+2023-07-02 17:37:02.750  INFO LAPTOP-QSG579HJ --- [  restartedMain] c.c.e.EbmApplication                     : Welcome to EBM Application
+2023-07-02 17:37:10.791  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-02 17:37:10.791  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2023-07-02 17:37:10.792  INFO LAPTOP-QSG579HJ --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2023-07-02 17:37:11.641  WARN LAPTOP-QSG579HJ --- [nio-8080-exec-1] o.a.c.u.SessionIdGeneratorBase           : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [113] milliseconds.
